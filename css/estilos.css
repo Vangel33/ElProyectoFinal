@@ -1,0 +1,172 @@
+
+html {
+    scroll-behavior: smooth;
+    
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+header, footer {
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    background-color: rgb(156, 156, 255);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#foto {
+    flex: 1;
+    text-align: center;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+}
+#presentacion {
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+    padding: 5px;
+
+}
+section {
+    width: 100%;
+    border: 1px solid blue;
+    border-top: 0px;
+    padding: 10px;
+}
+main {
+    padding: 1%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#otros {
+    display: flex;
+    margin: 0px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.otros {
+    flex: 1;
+    min-width: 300px;    
+    width: 30%;
+    margin: 10px;
+}
+
+h2 {
+    background-color: rgb(156, 156, 255);
+    border: 2px solid blue;
+    margin: 0%;
+    margin-top: 1%;
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
+    transition: 0.5s;
+}
+h2:hover {
+    background-color: rgb(139, 139, 245);
+}
+.contacto {
+    width: 25%;
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    min-width: 180px;
+}
+#contacto {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fecha {
+    flex: 1;
+    margin-top: 8px;
+    padding: 0px;
+    max-width: 300px;
+    min-width: 220px;
+}
+.puesto {
+    flex: 1;
+    background-color: none;
+    min-width: 350px;
+    margin-bottom: 20px;
+}
+.ubicacion {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    display: flex;
+}
+h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.detalles {
+    display: none;
+    animation: fade-in 1s forwards;
+
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.detallesShow {
+    display: block;
+}
+.experiencia {
+    display: flex;
+    flex-wrap: wrap;
+}
+#botonMenos1, #botonMenos2, #botonMenos3 {
+    display: none;
+}
+.contacto {
+    transition: 0.5s;
+}
+.contacto:hover {
+    transform: scale(1.1);
+}
+button {
+    width: 150px;
+}
+#arriba {
+    scale: 2;
+    transition: 0.8s;
+    color: white;
+    
+}
+#arriba:hover {
+    transform: scale(1.2);
+    color: white;
+}
+img {
+    border-radius: 100%;
+    border: 4px solid white;
+}
+#simple {
+    margin: 10px;
+}
+.simple {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
